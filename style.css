@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif; /* Police de caractère */
+    background-color: #f4f4f9; /* Couleur de fond */
+    color: #333; /* Couleur du texte */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #914caf88; /* Couleur de fond */
+    color: white; /* Couleur du texte */
+    text-align: center; /* Centrer le texte */
+    padding: 10px;
+}
+
+/* Style pour la section principale */
+section {
+    margin: 20px; /* Marge autour de la section */
+    padding: 20px; /* Espace à l'intérieur de la section */
+    background-color: white; /* Couleur de fond de la section */
+    border-radius: 8px; /* Bords arrondis */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre légère */
+}
+
+/* Style pour les images */
+img {
+    width: 100%; /* Image qui prend la largeur du conteneur */
+    height: auto; /* Garde les proportions de l'image */
+    border-radius: 5px; /* Bords arrondis de l'image */
+}
+
+/* Style pour le footer */
+footer {
+    text-align: center; /* Centrer le texte du footer */
+    padding: 10px;
+    background-color: #333; /* Fond sombre */
+    color: white; /* Texte en blanc */
+}
+
+.presentation {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px; /* Espace entre le texte et l'image */
+    padding: 20px;
+  }
+  
+  .presentation img {
+    max-width: 300px;
+    height: auto;
+  }
+.autres{
+    /* display: flex; */
+    gap: 10px;
+}
+.formation{
+    padding: 20px;
+    border: 1px solid purple;
+    width: 20%;
+    background-color: rgba(11, 149, 188, 0.468);
+}
+
+.experience{
+    padding: 20px;
+    border: 3px dotted purple;
+    width: 20%;
+}
+
+.experience a{
+    text-decoration: none;
+    color: rgb(255, 135, 209);
+}
+.loisirs{
+    /* padding: 20px; */
+    border: 1px dashed purple;
+    /* width: 20%; */
+    background-color: chocolate;
+}
+
+.contact{
+    padding: 20px;
+    border: 5px groove purple;
+    width: 20%;
+}
